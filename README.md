@@ -42,3 +42,20 @@ A3144 Hall Effect Sensor
 ## Goals
 
 The main objective is to improve hardware organization, create a compact and refined physical device, maintain compatibility with the original software concept, and deliver a more polished and maintainable version of the project.
+
+# Bill of Materials (BOM)
+
+| Component | Quantity | Notes |
+|-----------|----------|------|
+| Raspberry Pi 5 or Raspberry Pi Zero 2 W | 1 | Main controller |
+| RC522 RFID Reader | 1 | Reads RFID tags representing albums or playlists |
+| RFID Tags / Cards | Several | Used to trigger playback |
+| A3144 Hall Effect Sensor | 1 | Detects the presence/position of the record |
+| 28BYJ-48 Stepper Motor | 1 | Used for platter rotation |
+| ULN2003 Stepper Motor Driver | 1 | Driver board for the stepper motor |
+| MicroSD Card (16GB+) | 1 | Operating system and software |
+| 5V Power Supply | 1 | Power for the Raspberry Pi |
+| Custom PCB | 1 | Organizes connections between components |
+| 3D Printed Parts | 1 set | Custom enclosure and internal structure |
+| Jumper Wires / Connectors | As needed | Internal wiring |
+| Magnets (for Hall sensor detection) | 1–2 | Used for position detection |
